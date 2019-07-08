@@ -51,6 +51,7 @@
             /* background-color: #6495ed; */
             background-color: #dc143c;
             padding: 10px 20px;
+            border-radius: 2px;
         }
         
         #About hr {
@@ -62,6 +63,7 @@
         
         #Skills span {
             padding: 10px 20px;
+            border-radius: 2px;
         }
         
         #Skills hr {
@@ -84,6 +86,7 @@
         
         #Experience span {
             padding: 10px 20px;
+            border-radius: 2px;
         }
         
         #Experience hr {
@@ -92,14 +95,31 @@
         }
         
         #Experience .card {
-            border-top: 03px solid #eb4d4b;
+            border-left: 03px solid #eb4d4b;
         }
         
         #Contact span {
             padding: 10px 20px;
+            border-radius: 2px;
         }
         
         #Contact hr {
             border-width: 1px;
             margin-top: 06px;
+        }
+        
+        #Contact .card {
+            border: none;
+        }
+        
+        #Contact button {
+            border-radius: 5px;
+            padding: 2px;
+            margin: 2px;
+            width: 80px;
+            height: 40px;
+        }
+        
+        #Contact button:hover {
+            background-color: #eb4d4b;
         }
