@@ -12,15 +12,15 @@
         }
         
         #bg-img {
-            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/codeonlaptop.jpg);
+            background: url('img/codeonlaptop.jpg');
             background-size: 100%;
             background-repeat: no-repeat;
             min-height: 500px;
         }
         
         .card-footer {
-            background-color: #ED4C67;
-            /* background-color: #f0932b; */
+            /* background-color: #6495ed; */
+            background-color: #f0932b;
         }
         /* 
 .media img {
@@ -49,14 +49,14 @@
         
         #About span {
             /* background-color: #6495ed; */
-            background-color: #1289A7;
+            background-color: #dc143c;
             padding: 10px 20px;
             border-radius: 2px;
         }
         
         #About hr {
             /* background-color: #6495ed; */
-            background-color: #1289A7;
+            background-color: #dc143c;
             border-width: 1px;
             margin-top: 06px;
         }
@@ -64,13 +64,11 @@
         #Skills span {
             padding: 10px 20px;
             border-radius: 2px;
-            background-color: #EE5A24 !important;
         }
         
         #Skills hr {
             border-width: 1px;
             margin-top: 06px;
-            background-color: #EE5A24 !important;
         }
         
         #Skills .card {
@@ -99,31 +97,29 @@
         #Experience .card {
             border-left: 03px solid #eb4d4b;
         }
-        /***Contact***/
         
-        .Contact {
-            margin-top: 30px;
-            padding-top: 50px;
-            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/codeonlaptop.jpg);
-            background-position: center;
-            background-size: cover;
-            background-attachment: fixed;
-            color: #fff;
+        #Contact span {
+            padding: 10px 20px;
+            border-radius: 2px;
         }
         
-        .Contact .row {
-            margin-left: 30px;
-            margin-right: 20px;
-            padding: 30px 0;
-            font-size: 22px;
-            text-align: center;
+        #Contact hr {
+            border-width: 1px;
+            margin-top: 06px;
         }
         
-        .Contact .col-md-4 .fa {
-            padding: 10px;
-            font-size: 40px;
+        #Contact .card {
+            border: none;
         }
         
-        .Contact .row button {
-            margin: 0 auto;
+        #Contact button {
+            border-radius: 5px;
+            padding: 2px;
+            margin: 2px;
+            width: 80px;
+            height: 40px;
+        }
+        
+        #Contact button:hover {
+            background-color: #eb4d4b;
         }
