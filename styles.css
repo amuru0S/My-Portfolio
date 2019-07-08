@@ -1,0 +1,97 @@
+body {
+    background: #ccc;
+    margin: auto;
+}
+
+#Header a:hover {
+    color: #fff;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    outline: none !important;
+}
+
+#bg-img {
+    background: url('img/codeonlaptop.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
+.card {
+    width: 1100px;
+    right: -20px;
+    /*left: 125px; */
+}
+
+.card-footer {
+    /* background-color: #6495ed; */
+    background-color: #dc143c;
+}
+
+
+/* 
+.media img {
+    right: 50px;
+} */
+
+.media-body {
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#About {
+    margin-top: -30px;
+}
+
+#About .fa {
+    color: #fff;
+}
+
+#About span {
+    /* background-color: #6495ed; */
+    background-color: #dc143c;
+    padding: 10px 20px;
+}
+
+#About hr {
+    /* background-color: #6495ed; */
+    background-color: #dc143c;
+    border-width: 1px;
+    margin-top: 06px;
+}
+
+#Skills span {
+    padding: 10px 20px;
+}
+
+#Skills hr {
+    border-width: 1px;
+    margin-top: 06px;
+}
+
+#Skills .card {
+    left: 90px;
+}
+
+.progress {
+    border-radius: 16px !important;
+}
+
+.progress-bar {
+    border-radius: 16px !important;
+}
+
+#Experience span {
+    padding: 10px 20px;
+}
+
+#Experience hr {
+    border-width: 1px;
+    margin-top: 06px;
+}
+
+#Experience .card {
+    left: 90px;
+}
