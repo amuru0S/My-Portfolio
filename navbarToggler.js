@@ -1,8 +1,8 @@
 $(document).ready(() => {
-    $(".navbar").on('mouseenter', () => {
-        $('.navbar-nav').show();
+    $(".navbar-toggler").on('mouseenter', () => {
+        $('#Navbar').show();
     });
-    $('.navbar-nav').on('mouseleave', () => {
-        $('.navbar-nav').hide();
+    $('#Navbar').on('mouseleave', () => {
+        $('#Navbar').hide();
     });
 });
