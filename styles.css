@@ -1,129 +1,146 @@
-        body {
-            background: #ccc;
-            margin: auto;
-        }
-        
-        #Header a:hover {
-            color: #fff;
-        }
-        
-        .navbar-toggler .navbar-toggler-icon {
-            outline: none !important;
-        }
-        
-        #bg-img {
-            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/codeonlaptop.jpg);
-            background-size: 100%;
-            background-repeat: no-repeat;
-            min-height: 500px;
-        }
-        
-        .card-footer {
-            background-color: #ED4C67;
-            /* background-color: #f0932b; */
-        }
-        /* 
+body {
+    background: #ccc;
+    margin: auto;
+}
+
+#Header a:hover {
+    color: #fff;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    outline: none !important;
+}
+
+#bg-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/codeonlaptop.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
 .media img {
-    right: 50px;
-} */
-        
-        .media-body {
-            font-family: 'Dosis', sans-serif;
-            text-align: center;
-            padding-top: 50px;
-        }
-        
-        #About {
-            margin-top: -30px;
-        }
-        
-        #About .card {
-            width: 1100px;
-            right: -20px;
-            /*left: 125px; */
-        }
-        
-        #About .fa {
-            color: #fff;
-        }
-        
-        #About span {
-            /* background-color: #6495ed; */
-            background-color: #1289A7;
-            padding: 10px 20px;
-            border-radius: 2px;
-        }
-        
-        #About hr {
-            /* background-color: #6495ed; */
-            background-color: #1289A7;
-            border-width: 1px;
-            margin-top: 06px;
-        }
-        
-        #Skills span {
-            padding: 10px 20px;
-            border-radius: 2px;
-            background-color: #EE5A24 !important;
-        }
-        
-        #Skills hr {
-            border-width: 1px;
-            margin-top: 06px;
-            background-color: #EE5A24 !important;
-        }
-        
-        #Skills .card {
-            width: 1100px;
-            left: 90px;
-        }
-        
-        .progress {
-            border-radius: 16px !important;
-        }
-        
-        .progress-bar {
-            border-radius: 16px !important;
-        }
-        
-        #Experience span {
-            padding: 10px 20px;
-            border-radius: 2px;
-        }
-        
-        #Experience hr {
-            border-width: 1px;
-            margin-top: 06px;
-        }
-        
-        #Experience .card {
-            border-left: 03px solid #eb4d4b;
-        }
-        /***Contact***/
-        
-        .Contact {
-            margin-top: 30px;
-            padding-top: 50px;
-            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/codeonlaptop.jpg);
-            background-position: center;
-            background-size: cover;
-            background-attachment: fixed;
-            color: #fff;
-        }
-        
-        .Contact .row {
-            margin-left: 30px;
-            margin-right: 20px;
-            padding: 30px 0;
-            font-size: 22px;
-            text-align: center;
-        }
-        
-        .Contact .col-md-4 .fa {
-            padding: 10px;
-            font-size: 40px;
-        }
-        
-        .Contact .row button {
-            margin: 0 auto;
-        }
+    border-radius: 50%;
+    margin-left: 170%;
+    margin-right: 200%;
+}
+
+
+/***About***/
+
+#About {
+    margin-top: -100px;
+}
+
+#About span {
+    background-color: #1289A7;
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+
+#About hr {
+    background-color: #1289A7;
+    border-width: 1px;
+    margin-top: 06px;
+}
+
+
+/*** Skills ***/
+
+#Skills span {
+    padding: 10px 20px;
+    border-radius: 2px;
+    background-color: #EE5A24 !important;
+}
+
+#Skills hr {
+    border-width: 1px;
+    margin-top: 06px;
+    background-color: #EE5A24 !important;
+}
+
+.progress {
+    border-radius: 16px !important;
+}
+
+.progress-bar {
+    border-radius: 16px !important;
+}
+
+
+/*** Experience ***/
+
+#Experience span {
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+
+#Experience hr {
+    border-width: 1px;
+    margin-top: 06px;
+}
+
+#Experience .card {
+    border-left: 03px solid #eb4d4b;
+}
+
+
+/***Contact***/
+
+.Contact {
+    margin-top: 30px;
+    padding-top: 50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/codeonlaptop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.Contact h1 {
+    font-weight: bold;
+}
+
+.Contact .row {
+    padding: 30px 0;
+    font-size: 22px;
+    text-align: center;
+}
+
+.Contact .col-md-4 .fa {
+    font-size: 30px;
+}
+
+.Contact .btn {
+    padding: 10px 25px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background: transparent;
+}
+
+.Contact .btn .fa {
+    margin-right: 10px;
+}
+
+.Contact .btn:focus {
+    box-shadow: none !important;
+}
+
+.Contact .btn:hover {
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    transition: 0.6s ease-out;
+}
+
+.Footer {
+    background: #000;
+    height: 50px;
+    margin-top: 30px;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.fa-heart {
+    color: red;
+}
