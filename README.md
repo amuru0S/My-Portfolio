@@ -8,19 +8,20 @@ This is portfolio webpage which shows all the details like my skills, my experie
 
 ### Table of Contents:
 
-* **[Technologies used]()**
-* **[Goals for this project]()**
-* **[My git workflow]()**
-* **[Useful references]()**
+* **[Technologies used](https://github.com/amuru0S/My-Portfolio#technologies-used)**
+* **[Goals for this project](https://github.com/amuru0S/My-Portfolio#goals-for-this-project)**
+* **[My git workflow](https://github.com/amuru0S/My-Portfolio#my-git-workflow)**
+* **[Useful references](https://github.com/amuru0S/My-Portfolio#useful-references)**
 
 ### Technologies used
 
 :eyes::point_down:**Click links to view some sample code in this project** :point_down::eyes:
 
-* **[navbar] ()*
-* **[bootstrap] ()***
-* **[font-awesome] ()**
-* **[jQuery]()**
+* **[html5] (https://github.com/amuru0S/My-Portfolio/blob/master/index.html)*
+* **[CSS3] (https://github.com/amuru0S/My-Portfolio/blob/master/index.html)*
+* **[bootstrap] (https://github.com/amuru0S/My-Portfolio/blob/master/index.html)***
+* **[font-awesome] (https://github.com/amuru0S/My-Portfolio/blob/master/index.html)**
+* **[jQuery](https://github.com/amuru0S/My-Portfolio/blob/master/navbarToggler.js)**
 
 ### Goals for this project
 
