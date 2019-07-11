@@ -17,10 +17,10 @@ This is portfolio webpage which shows all the details like my skills, my experie
 
 :eyes::point_down:**Click links to view some sample code in this project** :point_down::eyes:
 
-* **[html5] (https://github.com/amuru0S/My-Portfolio/blob/master/index.html)*
-* **[CSS3] (https://github.com/amuru0S/My-Portfolio/blob/master/index.html)*
-* **[bootstrap] (https://github.com/amuru0S/My-Portfolio/blob/master/index.html)***
-* **[font-awesome] (https://github.com/amuru0S/My-Portfolio/blob/master/index.html)**
+* **[html5](https://github.com/amuru0S/My-Portfolio/blob/master/index.html)**
+* **[CSS3](https://github.com/amuru0S/My-Portfolio/blob/master/index.html)**
+* **[bootstrap](https://github.com/amuru0S/My-Portfolio/blob/master/index.html)**
+* **[font-awesome](https://github.com/amuru0S/My-Portfolio/blob/master/index.html)**
 * **[jQuery](https://github.com/amuru0S/My-Portfolio/blob/master/navbarToggler.js)**
 
 ### Goals for this project
