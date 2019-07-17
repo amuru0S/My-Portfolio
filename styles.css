@@ -80,8 +80,13 @@ body {
 }
 
 #Experience .card {
-    border-left: 03px solid #eb4d4b;
+    border-left: 5px solid #eb4d4b;
     margin-bottom: 10px;
+}
+
+#Experience .card:hover {
+    transform: scale(0.95);
+    box-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 
@@ -124,13 +129,25 @@ body {
     font-size: 30px;
 }
 
-.Contact .btn {
+
+/* .Contact .btn {
     padding: 10px 25px;
     margin: auto;
     margin-bottom: 20px;
     border-radius: 30px;
     border: 2px solid #fff;
     background: transparent;
+} */
+
+.Contact .btn {
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    color: #ffffff;
+    transform: translateY(-2px);
+    transition: all .2s;
 }
 
 .Contact .btn .fa {
