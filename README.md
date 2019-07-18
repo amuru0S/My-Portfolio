@@ -34,7 +34,7 @@ This is portfolio webpage which shows all the details like my skills, my experie
 
 In this project I tried to:
 
-* create a new branch to every field and provided the meaningful name to the branch.
+* create a new branch to every element and provided the meaningful name to the branch.
 * create a new pull request and resolved conflicts before merging the branch into master.
 * push the code time-to-time.
 * give proper commit messages for each push.
