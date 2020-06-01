@@ -1,6 +1,6 @@
 # :woman: Portfolio :woman:
 
-:heart::point_right: **[Check out the deployed version here](https://samuru-portfolio.netlify.com/)** :point_left::heart:
+:heart::point_right: **[Check out the deployed version here](https://aswetha-portfolio.netlify.com/)** :point_left::heart:
 
 ## What this project is about
 
